@@ -25,8 +25,8 @@ function HangmanGame(){
 
 wrongGuesses = [];
 console.log("wrong guesses", incorrectGuess);
-numGuesses = 15;
-CorrectGuess = [];
+numberGuesses = 15;
+correctGuess = [];
 
 /* choose a random word from the "words" list. */
 	randomWord = words[Math.floor(Math.random() * words.length)];
